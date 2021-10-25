@@ -2,7 +2,7 @@ import os
 
 
 def open_file(name: str):
-    path = os.path.abspath('Алгоритмы и структуры данных Python/'+name)
+    path = os.path.abspath('Алгоритмы и структуры данных Python/' + name)
     if os.path.isfile(path):
         with open(path) as f:
             return f.read()
