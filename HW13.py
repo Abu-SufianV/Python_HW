@@ -24,6 +24,3 @@ ROOT_B = float(input("2-й корень: "))
 ROOT_C = float(input("3-й корень: "))
 
 equation(ROOT_A, ROOT_B, ROOT_C)
-
-#  (x-(0.5))(x-(-1.2))(x-(1))=0
-#  x^3+(-3.0)*x^2+(3.0)*x+(-1.0)=0
