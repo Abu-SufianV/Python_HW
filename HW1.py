@@ -11,9 +11,10 @@ def calculation(x, y, operation):
         return x * y
     elif operation == '/':
         return x / y
-    else:
-        print('Неизвестная операция')
-        return None
+
+    print('Неизвестная операция')
+    return None
 
 
-print(calculation(input(), input(), input()))
+print(calculation(input("Введите 1-е число:"),
+      input("Введите 2-е число:"), input("Введите операцию (+, -, *, /):")))
